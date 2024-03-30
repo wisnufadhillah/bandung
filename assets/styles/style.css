@@ -71,7 +71,7 @@ nav li {
 nav {
     background-color: #00a2c6;
     padding: 5px;
-
+    opacity: 0.9;
     position: sticky;
     top: 0;
 }
@@ -91,6 +91,9 @@ main {
 
 aside {
     flex: 1;
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
 }
 
 header {
